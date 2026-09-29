@@ -1,0 +1,25 @@
+[project]
+name = "tabpfn"
+version = "0.1.0"
+description = "Testing out TabPFN and benchmarking against XGBoost"
+readme = "README.md"
+authors = [
+    { name = "Daniel Jensen", email = "jensendaniel0144@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+  "tabpfn==2.0.9",
+  "xgboost==3.0.2",
+  "pandas==2.2.3",
+  "numpy==2.2.6",
+  "matplotlib==3.10.3",
+  "scikit-learn==1.6.1",
+  "requests==2.32.3"
+]
+
+[project.scripts]
+tabpfn = "tabpfn:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
