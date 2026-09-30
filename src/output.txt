@@ -1,0 +1,2 @@
+TabPFN  MAE : 8.753
+XGBoost  MAE : 9.332
