@@ -12,3 +12,7 @@ env/
 build/
 dist/
 *.log
+*.pt
+*.pth
+*.safetensors
+.env

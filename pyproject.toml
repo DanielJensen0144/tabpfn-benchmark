@@ -8,13 +8,14 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-  "tabpfn==2.0.9",
-  "xgboost==3.0.2",
-  "pandas==2.2.3",
-  "numpy==2.2.6",
-  "matplotlib==3.10.3",
-  "scikit-learn==1.6.1",
-  "requests==2.32.3"
+  "tabpfn",
+  "xgboost",
+  "pandas",
+  "numpy",
+  "matplotlib",
+  "scikit-learn",
+  "requests",
+  "dotenv",
 ]
 
 [project.scripts]
